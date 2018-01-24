@@ -1,0 +1,12 @@
+body {
+	font: 2rem sans-serif;
+	background: white;
+	color: #87CEEB;
+	margin: 40px;
+	}
+
+	.container {
+	display: grid;
+	grid-template-columns: 100px 50px 80px 200px;
+	grid-template-rows: 80px 100px 100px;
+}
