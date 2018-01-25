@@ -1,0 +1,35 @@
+body {
+    font: 2rem sans-serif;
+    background: white;
+    color: #87CEEB;
+    margin: 40px;
+    }
+
+    .container { /* criando uma grid */
+    display: grid; 
+    grid-template-columns: 100px 50px 80px 200px;
+    grid-template-rows: 80px 100px 100px;
+    grid-gap:10px 10px;
+}
+
+.box {
+    color: #7FFF00;
+    border: 3px solid black;
+    font-size: 1.5rem;
+    padding: 10px; 
+     }
+
+.box1 {
+    background: #DEB887; /* definindo posicionamento do grid item box1 */
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.box2{
+    background: #FF7F50;  /* definindo posicionamento do grid item box2 forma abreviada */
+    grid-column: 3/5;
+    grid-row:1/3;
+
+}
