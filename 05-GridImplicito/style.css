@@ -1,0 +1,28 @@
+body {
+    font: 2rem sans-serif;
+    background: white;
+    color: #87CEEB;
+    margin: 40px;
+    }
+
+    .container { /* criando uma grid  com 2 lugares mas como o grid precisa 
+    suportar 3 componentes automaticamente ele criara mais um lugar
+     que é o grid implicito*/
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 80px;
+    grid-gap: 10px 10px;
+}
+
+.box {
+    color: #7FFF00;
+    border: 3px solid black;
+    font-size: 1.5rem;
+    padding: 10px; 
+     }
+
+.box1 { background: #DEB887; }
+
+.box2{ background: #FF7F50; }
+
+.box3{ background: #6495ED; }
