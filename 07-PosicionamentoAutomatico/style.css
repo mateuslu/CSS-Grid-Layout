@@ -1,0 +1,22 @@
+body {
+    font: 2rem sans-serif;
+    background: white;
+    color: #7CFC00;
+    margin: 40px;
+    }
+
+    .Container {
+        display: grid;
+        grid-template-columns:150px 700px 150px;
+        grid-template-rows:60px 40px 200px 60px;
+        grid-gape:5px 10px;
+    }
+    .Topo{ background: #228B22;}
+    .Menu{ background: #00BFFF;}
+    .Principal{background: #FF4500;}
+    .Primaria{background: #1E90FF;}
+    .Secundaria{background: #696969;}
+    .Rodape{background: #FF0000;}
+
+
+
