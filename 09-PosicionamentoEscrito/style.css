@@ -1,0 +1,46 @@
+body {
+    font: 1.5rem sans-serif;
+    background: white;
+    color: #7CFC00;
+    margin: 40px;
+    }
+
+    .Container {
+        display: grid;
+        grid-template-columns:[inicio] 150px [f-primaria i-principal] 700px [f-principal i-secundario] 150px [fim];
+        grid-template-rows:[inicio] 60px [f-topo i-menu] 40px [f-menu i-3col] 200px [f-3col i-rodape] 60px [fim];
+        grid-gape:5px 10px;
+    }
+
+    .Topo{ 
+        background: #228B22;
+        grid-area: 1/1/2/4;
+    }
+
+    .Menu{ 
+        background: #00BFFF;
+        grid-area: 2/1/3/4;
+    }
+
+    .Principal{
+        background: #FF4500;
+        grid-area: 3/2/4/3;
+    }
+
+    .Primaria{
+        background: #1E90FF;
+        grid-area: 3/1/4/2;
+    }
+
+    .Secundaria{
+        background: #696969;
+        grid-area: 3/3/4/4;
+    }
+
+    .Rodape{
+        background: #FF0000;
+        grid-area: 4/1/5/4;
+    }
+
+
+
