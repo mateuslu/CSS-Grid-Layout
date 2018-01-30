@@ -1,0 +1,33 @@
+body {
+    font: 1.5rem sans-serif;
+    background: white;
+    color: #7CFC00;
+    margin: 40px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+        grid-template-rows: 80px 80px 80px 80px;
+    }
+
+    .box1{
+        grid-column: 2/ span 4;
+        background: #DEB887;
+    }
+
+    .box2{
+        grid-row: 3/ span 2;
+        background:  #5F9EA0
+    }
+
+    .box3{
+        grid-column: 3/ span 4;
+        grid-row: 3/ span 2;
+        background:   #D2691E
+    }
+
+    
+
+
+
