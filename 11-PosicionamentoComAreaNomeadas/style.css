@@ -7,27 +7,24 @@ body {
 
     .container {
         display: grid;
-        grid-template-columns: 100px 100px 100px 100px 100px 100px;
-        grid-template-rows: 80px 80px 80px 80px;
+        /* grid-template-rows: 60px 40px 200px 60px; */ /* fixar altura*/
+        /* grid-template-columns: 200px 700px 200px; */ /* fixar largura*/
+        grid-template-areas:
+            "topo topo topo"
+            "menu menu menu"
+            "primaria principal secundaria"
+            "rodape rodape rodape";
+        grid-gap:5px 10px;
     }
 
-    .box1{
-        grid-column: 2/ span 4;
-        background: #DEB887;
-    }
+    .topo {grid-area:topo;}
+    .menu {grid-area:menu;}
+    .principal {grid-area:principal;}
+    .primaria {grid-area:primaria;}
+    .secundaria {grid-area:secundaria;}
+    .rodape {grid-area:rodape;}
 
-    .box2{
-        grid-row: 3/ span 2;
-        background:  #5F9EA0
-    }
 
-    .box3{
-        grid-column: 3/ span 4;
-        grid-row: 3/ span 2;
-        background:   #D2691E
-    }
-
-    
 
 
 

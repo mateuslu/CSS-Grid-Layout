@@ -1,0 +1,17 @@
+body {
+    font: 1.5rem sans-serif;
+    background: white;
+    color: #7CFC00;
+    margin: 40px;
+    }
+
+    .container {
+        dispaly: grid;
+        grid-template-columns: repeat( 12, 7%); /* 84% */
+        grid-template-rows: reapt(10, 4vh); /* 40% da altura da viewport */
+    }
+
+
+
+
+
