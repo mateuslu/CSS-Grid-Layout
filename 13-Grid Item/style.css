@@ -7,8 +7,8 @@ body {
 
     .container {
         display: grid;
-        grid-template-columns: repeat( 12, 8%); /* 84% */
-        grid-template-rows: repeat(10, 4vh); /* 40% da altura da viewport */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 90px 90px;
         grid-gape:10px;
     }
 
