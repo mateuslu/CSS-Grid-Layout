@@ -1,0 +1,29 @@
+body {
+    font: 1 rem sans-serif;
+    background: white;
+    color: #7CFC00;
+    margin: 40px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: auto;
+    }
+    .box1{
+        margin: 20px 30px 10px 0;
+        padding: 10px 20px 0 0;
+        background: #1E90FF
+
+    }
+    .box2{
+        margin:30px 10px 10px 50px;
+        padding:20px 40px 0 30px;
+        background: #FFA500
+;
+    }
+
+
+
+
+
