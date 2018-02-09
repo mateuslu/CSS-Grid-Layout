@@ -1,0 +1,33 @@
+body {
+    font: 1 rem sans-serif;
+    background: white;
+    color: #7CFC00;
+    margin: 40px;
+    }
+.box {
+    color: white;
+    border: 4px solid #333;
+    font-size: 1.6rem;
+    padding: 10px; 
+     }
+
+    .container {
+        display: grid;
+        max-width: 1000px;
+        margin:0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+        grid-template-rows: repeat(2,1fr);
+        grid-auto-rows:100px;
+        grid-gap:10px;
+        background: #00BFFF;
+    }
+
+
+    .box1{background: #FFA500;}
+    .box2{background: #FF4500;}
+    .box3{background: #4169E1;}
+    .box4{background: #9400D3;}
+
+
+
+
